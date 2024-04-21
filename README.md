@@ -1,10 +1,10 @@
 # readme
-it is a Blockchain-based application designed to manage property transactions using digital currency. This system facilitates secure and transparent property trading through blockchain technology, ensuring data integrity with cryptographic methods like hash functions and Merkle trees.
+It is a Blockchain-based application designed to manage property transactions using digital currency. This system facilitates secure and transparent property trading through blockchain technology, ensuring data integrity with cryptographic methods like hash functions and Merkle trees.
 
-Modules and Their Functionalities
+
 1. block.py: Blockchain Management
 
-Class BlockChain:
+- Class BlockChain:
 Manages the entire blockchain, maintaining a list of blocks and transactions.
 
 - new_block(self, previous_hash=None, transaction=None):
